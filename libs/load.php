@@ -15,3 +15,30 @@ function validate_credentials($username, $password)
         return false;
     }
 }
+
+function signup($user, $phone, $email, $pass)
+{
+
+    $servername = "mysql.selfmade.ninja:3306";
+    $username = "Kmk01";
+    $password = "KMK@mar2001";
+    $dbname = "Kmk01_newdb";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    $sql = "INSERT INTO `auth01` (`username`, `phonenumber`, `email`, `password`, `active`, `block`);
+   VALUES ('$user', '$pass', '$email', '$phone', '1');";;
+    if ($conn->query($sql) === true) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    $conn->close();
+
+}

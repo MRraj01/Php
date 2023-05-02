@@ -1,31 +1,23 @@
 <?php
 include 'libs/load.php';
+
+
+
 ?>
 
-<?php
-  load_template('_head');
-?>
+<?load_template('_head');?>
 
 <body>
-	<?php
-  load_template('_header');
-?>
+	<?load_template('_header');?>
+	</header>
 	<main>
 		<section class="py-5 text-center container">
 			<?php
-  load_template('_calll');
-?>
+  load_template('_signup'); ?>
 		</section>
-		<?php
-load_template('_photogram');
-?>
 	</main>
-	<?php
-load_template('_footer');
-?>
+	<?load_template('_footer');?>
 	<script src="/app/assets/dist/js/bootstrap.bundle.min.js"></script>
-
-
 </body>
 
 </html>
