@@ -17,14 +17,13 @@ include 'libs/load.php';
 ?>
 		</section>
 		<?php
-load_template('_photogram');
+  load_template('_Game');
 ?>
 	</main>
 	<?php
 load_template('_footer');
 ?>
-	<script src="/app/assets/dist/js/bootstrap.bundle.min.js"></script>
-
+	</div>
 
 </body>
 
