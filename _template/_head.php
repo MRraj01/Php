@@ -10,11 +10,11 @@
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
 
 	<!-- Bootstrap core CSS -->
-	<link href="/app/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Php/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 	<link
-		href="/app/assets/dist/css/<?=basename($_SERVER['PHP_SELF'], ".php")?>.css"
+		href="/Php/assets/dist/css/<?=basename($_SERVER['PHP_SELF'], ".php")?>.css"
 		rel="stylesheet">
 
 
