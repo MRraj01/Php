@@ -17,7 +17,7 @@ include 'libs/load.php';
 ?>
 		</section>
 		<?php
-load_template('_photogram');
+load_template('_Game');
 ?>
 	</main>
 	<?php
