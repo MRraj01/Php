@@ -12,10 +12,17 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="/Php/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Php/assets/dist/css/index.css" rel="stylesheet">
+
+	
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
 	<link href="/Php/assets/dist/css/<?=basename($_SERVER['PHP_SELF'], ".php")?>.css" rel="stylesheet">
+	
 
 
 </head>
+<?php
+echo $_SERVER['SERVER_NAME'];
+?>

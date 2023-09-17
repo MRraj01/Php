@@ -14,11 +14,10 @@
 
 			 -->
 					<div class="card-body">
-						<p class="card-text"><h1 style="color:#f5aa00">CALL OF DUTY</h1>
+						<p class="card-text"><h1 style="color:#f5aa00",size="1">CALL OF DUTY</h1>
 							BLACK OPS:
 							The biggest action series of all time returns. Call of Duty®: Black Ops is an entertainment
-							experience that will take you to conflicts across the globe, as elite Black Ops forces fight
-							in the deniable operations and secret wars that occurred under the veil of the Cold War. .
+							experience game.
 						</p>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
