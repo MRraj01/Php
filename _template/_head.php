@@ -18,7 +18,7 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-	<link href="/Php/assets/dist/css/<?=basename($_SERVER['PHP_SELF'], ".php")?>.css" rel="stylesheet">
+	
 	
 
 

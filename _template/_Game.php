@@ -22,8 +22,8 @@
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
 								
-								<button type="button" class="btn btn-sm btn-outline-secondary"><a href="view.php" >
-                      <span class="btn btn-sm btn-outline-secondar">View Page</span></button>
+								<button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.location='login.php'">
+                      <span class="btn btn-sm btn-outline-secondar" title="Lets Dive into Game Page">View Page</span></button>
 								
                       
                     </a>

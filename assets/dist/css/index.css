@@ -10,3 +10,12 @@ h1 {
   font-weight: 12;
   word-spacing: normal;
 }
+.button:visited {
+  
+  background-color: #110909;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
