@@ -1,6 +1,6 @@
 <main class="form-signup">
 	<form method="post" action="test.php">
-		<img class="mb-4" src="https://git.selfmade.ninja/uploads/-/system/appearance/logo/1/Artboard_1.png" alt=""
+		<img class="mb-4" src="" alt=""
 			width="72" height="57">
 		<h1 class="h3 mb-3 fw-normal">Please sign up</h1>
 
