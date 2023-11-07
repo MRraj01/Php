@@ -2,12 +2,11 @@
 include 'libs/load.php';
 ?>
 
-<?load_template('_head');?>
+<?php load_template('_head');?>
 
 
 <body>
-	<?load_template('_header');?>
-	</header>
+	
 	<main>
 		<section class="py-5 text-center container">
 			<?php
