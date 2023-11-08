@@ -13,8 +13,10 @@
 	<!-- Bootstrap core CSS -->
 	<link href="/Php/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/Php/assets/dist/css/index.css" rel="stylesheet">
+	<link href="/Php/assets/dist/css/signup.css" rel="stylesheet">
 
-	
+	<link href="/Php/assets/dist/css/login.css" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
@@ -23,6 +25,3 @@
 
 
 </head>
-<?php
-echo $_SERVER['SERVER_NAME'];
-?>
